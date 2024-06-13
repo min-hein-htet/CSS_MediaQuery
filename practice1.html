@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <style>
+        
+        
+        nav{
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color:brown;
+        
+        padding-left:50px;
+
+        overflow: hidden;
+    
+
+    a{
+        text-decoration: none;
+        color:black;
+    }
+
+    .head{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+
+       
+        width:400px;
+        padding:10px 20px;
+        list-style: none;
+        cursor: pointer;
+    }}
+
+    .content{
+            display: flex;
+            flex-direction: row;
+
+            justify-content: space-between;
+            align-items: center;
+            
+            padding:20px;
+
+    }
+
+    .left-box{
+
+        width:25%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu{
+        list-style: none;
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: start;
+        background-color: gold;
+        height:440px;
+        width:200px;
+        
+    }
+    .menu li{
+        padding-top:20px;
+    }
+
+    .right-box{
+        width:75%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+        
+
+        #box{
+            width:200px;
+            height:200px;
+            background-color: green;
+            margin:20px;
+
+            } 
+        
+
+   
+    .hamburger-icon{
+            display: none;
+        }
+       
+         
+        
+
+        .foot{
+            background-color:aqua;
+            padding:20px 40px;
+        }
+
+     </style>
+</head> 
+
+<body>
+    <nav>
+        <a href="#" class="Logo">logo</a>
+        <div class="hamburger-icon"><i class="fa fa-bars" style="font-size:40px;"></i></div>
+        <ul class="head">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+        <div class="content">
+                <div class="left-box">
+                    <ul class="menu">
+                        <li>MENU</li>
+                        <li>Shirts</li>
+                        <li>Shoes</li>
+                        <li>Bags</li>
+                        <li>Hats</li>
+                    </ul> 
+                </div>
+           
+                <div class="right-box">
+                        <div id="box"></div>
+                        <div id="box"></div>
+                        <div id="box"></div>
+                        <div id="box"></div>
+                        <div id="box"></div>
+                        <div id="box"></div>
+                </div>
+
+            </div>
+
+            <div class="foot">
+             <h6>CopyRight@All Rights Reserved.2024</h6>
+               
+            </div>
+          
+    
+</body>
+
+</html>
